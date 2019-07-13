@@ -1,0 +1,13 @@
+ch = input()
+if len(ch) <7:
+    print('NO')
+for i in range(7, len(ch)):
+    list1 = '0'*i
+    list2 = '1'*i
+    if list1 in ch:
+        print('YES')
+        break
+    elif list2 in ch:
+        print('YES')
+        break
+    print('NO')
