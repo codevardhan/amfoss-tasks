@@ -1,0 +1,15 @@
+ch = input()
+a = []
+c = 0
+n_k = ch.split(' ')
+n = int(n_k[0])
+k = int(n_k[1])
+w = input()
+a = w.split(' ')
+if int(max(a)) > 0:
+    for i in range(int(n)):
+        if int((a[i])) >= int(a[k]):
+            c += 1
+else:
+    c = 0
+print(c)
