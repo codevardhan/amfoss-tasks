@@ -1,0 +1,16 @@
+n = int(input())
+words = []
+results = []
+for i in range(n):
+    word = input()
+    words.insert(i, word)
+    if len(words[i]) > 10:
+        w1 = words[i][0]
+        w2 = words[i][-1]
+        length = len(words[i]) - 2
+        wf = f"{w1}{length}{w2}"
+        results.insert(i, wf)
+    else:
+        results.insert(i, word)
+for j in range(n):
+    print(results[j])
