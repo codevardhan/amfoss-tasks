@@ -17,6 +17,6 @@ After processing the text in the image, the answer is calculated depending on wh
 ### References:
 
 
-https://github.com/tesseract-ocr/tesseract
-https://pypi.org/project/pytesseract/
-https://pillow.readthedocs.io/en/stable/
+https://github.com/tesseract-ocr/tesseract  
+https://pypi.org/project/pytesseract/  
+https://pillow.readthedocs.io/en/stable/  
