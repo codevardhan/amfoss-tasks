@@ -7,5 +7,7 @@ search results for the keyword "linux". The ruby program uses Nokogiri and open-
 Nokogiri (鋸) is an HTML, XML, SAX, and Reader parser.
 Among Nokogiri's many features is the ability to search documents via XPath or CSS3 selectors.
 
+OpenURI is an easy-to-use wrapper for Net::HTTP, Net::HTTPS and Net::FTP.
+
 ### Blockers
 I am not able to process the data returned by Nokogiri to prodice a meaningful output.
