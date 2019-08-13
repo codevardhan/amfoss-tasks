@@ -1,16 +1,19 @@
 query SearchUser($userName: String!) {
-        search(query: $userName, type: USER, first: 1)
-      edges {
-        node {
+  search(query: $userName, type: USER, first: 1) {
+    edges {
+      node {
         ... on User {
-            name
-            login
-            avatarUrl
-            bio
-            email
-            }
+          name
+          login
+          avatarUrl
+          bio
+          email
+          }
         }
       }
     }
+  }
 
-{"userName": "uname"}
+
+
+{ "userName": "uname" }
