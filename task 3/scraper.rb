@@ -12,9 +12,11 @@ class Scraper
       a.push(link.text)
    end
    for i in 0..a.length
-      if a[i] != nil AND a[i].include? "https://"
+      if a[i] != nil
+         if a[i].include? "https://"
             link.push(a[i])
             heading.push(a[i-1])
+         end
       end
    end
    for j in 0..link.length
